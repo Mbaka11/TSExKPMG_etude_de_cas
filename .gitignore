@@ -1,0 +1,45 @@
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_convert/*
+# (On garde les .ipynb eux-mêmes)
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist/
+build/
+*.log
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# --- Excel / Office (fichiers temporaires qui bloquent les push) ---
+~$*
+*.tmp
+*.bak
+*.lock
+
+# --- Données (optionnel : décommente si tu ne veux pas versionner de gros fichiers) ---
+# data/
+# *.csv
+# *.tsv
+# *.xls
+# *.xlsx
+
+# --- OS / Editeurs ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
