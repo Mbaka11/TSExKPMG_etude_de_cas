@@ -1,0 +1,24 @@
+# --- Core scientific stack ---
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.11,<2
+
+# --- Visualisation ---
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.14
+
+# --- Notebooks ---
+jupyterlab>=4,<5
+ipykernel>=6,<7
+ipywidgets>=8,<9
+
+# --- Fichiers & formats data ---
+openpyxl>=3.1,<4       # lire/écrire Excel .xlsx
+pyarrow>=16,<19        # parquet/feather et I/O rapides
+xlrd<2.0               # (si vous devez lire d’anciens .xls)
+
+# --- Machine learning basique (optionnel mais pratique) ---
+scikit-learn>=1.4,<2
+
+# --- Utilitaires (optionnel) ---
+python-dotenv>=1.0,<2  # charger des variables d’env
